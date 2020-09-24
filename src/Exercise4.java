@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Exercise3 {
-
+public class Exercise4 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.print("Height : ");
@@ -10,12 +9,12 @@ public class Exercise3 {
         System.out.print("Width : ");
         double widthr = input.nextDouble();
 
-        heightr= heightr *25.4;
-        widthr = widthr*25.4;
-        double totalarea = heightr * widthr;
+        heightr = heightr * 2.54;
+        widthr = widthr *2.54;
 
-        System.out.printf("%,.2f", totalarea);
-        System.out.println(" square millimeters");
-
+        double totalperimiter= 2*heightr + 2*widthr;
+        System.out.printf("%,.2f", totalperimiter);
+        System.out.println(" centimeters");
     }
+
 }
