@@ -14,8 +14,8 @@ public class Exercise3 {
         widthr = widthr*25.4;
         double totalarea = heightr * widthr;
 
-        System.out.printf("%,.2f", totalarea);
-        System.out.println(" square millimeters");
+        System.out.printf("\n%,.2f", totalarea);
+        System.out.println(" square millimeters.");
 
     }
 }
